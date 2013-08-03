@@ -1,7 +1,7 @@
 {
   "name": "iphone-finder",
   "description": "Simple library to locate iOS devices (iPhone, iPod and iPad)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://github.com/ThomasHenley/node-iphone-finder.git",
   "author": {
     "name": "Thomas Henley",
