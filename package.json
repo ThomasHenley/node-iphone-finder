@@ -1,0 +1,18 @@
+{
+  "name": "iphone-finder",
+  "description": "Simple library to locate iOS devices (iPhone, iPod and iPad)",
+  "version": "1.0.0",
+  "homepage": "http://github.com/ThomasHenley/node-iphone-finder.git",
+  "author": {
+    "name": "Thomas Henley",
+    "email": "thomas@hendore.co.uk",
+    "url": "http://hendore.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ThomasHenley/node-iphone-finder.git"
+  },
+  "main": "./lib/iphone-finder",
+  "keywords": ["iphone", "ipod", "ipad", "find", "locate"],
+  "license" : "MIT"
+}
