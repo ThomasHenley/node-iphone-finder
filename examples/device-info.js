@@ -23,10 +23,17 @@ function outputDevice(device) {
     console.log('Device Type: ' + device.modelDisplayName);
 
     // Output location (latitude and longitude)
-    var lat = device.location.latitude;
-    var lon = device.location.longitude;
-    console.log('Lat/Long: ' + lat + ' / ' + lon);
+    if (device.location) {
+        if (device.location.latitude && device.location.longitude) {
+            var lat = device.location.latitude;
+            var lon = device.location.longitude;
+            console.log('Lat/Long: ' + lat + ' / ' + lon);
 
-    // Output a url that shows the device location on google maps
-    console.log('View on Map: http://maps.google.com/maps?z=15&t=m&q=loc:' + lat + '+' + lon);
+            // Output a url that shows the device location on google maps
+            console.log('View on Map: http://maps.google.com/maps?z=15&t=m&q=loc:' + lat + '+' + lon);
+        }
+    } else {
+        console.log('Device Location: unknown');
+    }
+    
 }
